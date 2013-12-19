@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A0A8E81862F1910002F022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0A8E71862F1910002F022 /* Foundation.framework */; };
+		40A0A8EA1862F1910002F022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0A8E91862F1910002F022 /* CoreGraphics.framework */; };
+		40A0A8EC1862F1910002F022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0A8EB1862F1910002F022 /* UIKit.framework */; };
+		40A0A8F21862F1910002F022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A8F01862F1910002F022 /* InfoPlist.strings */; };
+		40A0A8F41862F1910002F022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A8F31862F1910002F022 /* main.m */; };
+		40A0A8F81862F1910002F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A8F71862F1910002F022 /* AppDelegate.m */; };
+		40A0A8FA1862F1910002F022 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A8F91862F1910002F022 /* Images.xcassets */; };
+		40A0A9011862F1910002F022 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0A9001862F1910002F022 /* XCTest.framework */; };
+		40A0A9021862F1910002F022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0A8E71862F1910002F022 /* Foundation.framework */; };
+		40A0A9031862F1910002F022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0A8EB1862F1910002F022 /* UIKit.framework */; };
+		40A0A90B1862F1910002F022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A9091862F1910002F022 /* InfoPlist.strings */; };
+		40A0A90D1862F1910002F022 /* MLKPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A90C1862F1910002F022 /* MLKPageViewControllerTests.m */; };
+		40A0A9181862F1D70002F022 /* MLKPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A9171862F1D70002F022 /* MLKPageViewController.m */; };
+		40A0A91A1862F2580002F022 /* MLKPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A9191862F2580002F022 /* MLKPageView.xib */; };
+		40A0A91E1862F3550002F022 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A91B1862F3550002F022 /* FirstView.xib */; };
+		40A0A91F1862F3550002F022 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A91D1862F3550002F022 /* FirstViewController.m */; };
+		40A0A9261862F3600002F022 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A9201862F3600002F022 /* SecondView.xib */; };
+		40A0A9271862F3600002F022 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A9221862F3600002F022 /* SecondViewController.m */; };
+		40A0A9281862F3600002F022 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A0A9231862F3600002F022 /* ThirdView.xib */; };
+		40A0A9291862F3600002F022 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A0A9251862F3600002F022 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A0A9041862F1910002F022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A0A8DC1862F1910002F022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A0A8E31862F1910002F022;
+			remoteInfo = MLKPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40A0A8E41862F1910002F022 /* MLKPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLKPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A0A8E71862F1910002F022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40A0A8E91862F1910002F022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40A0A8EB1862F1910002F022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40A0A8EF1862F1910002F022 /* MLKPageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLKPageViewController-Info.plist"; sourceTree = "<group>"; };
+		40A0A8F11862F1910002F022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40A0A8F31862F1910002F022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40A0A8F51862F1910002F022 /* MLKPageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLKPageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		40A0A8F61862F1910002F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40A0A8F71862F1910002F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40A0A8F91862F1910002F022 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40A0A8FF1862F1910002F022 /* MLKPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLKPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A0A9001862F1910002F022 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		40A0A9081862F1910002F022 /* MLKPageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLKPageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		40A0A90A1862F1910002F022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40A0A90C1862F1910002F022 /* MLKPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLKPageViewControllerTests.m; sourceTree = "<group>"; };
+		40A0A9161862F1D70002F022 /* MLKPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKPageViewController.h; sourceTree = "<group>"; };
+		40A0A9171862F1D70002F022 /* MLKPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKPageViewController.m; sourceTree = "<group>"; };
+		40A0A9191862F2580002F022 /* MLKPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLKPageView.xib; sourceTree = "<group>"; };
+		40A0A91B1862F3550002F022 /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		40A0A91C1862F3550002F022 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		40A0A91D1862F3550002F022 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		40A0A9201862F3600002F022 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		40A0A9211862F3600002F022 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		40A0A9221862F3600002F022 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		40A0A9231862F3600002F022 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		40A0A9241862F3600002F022 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		40A0A9251862F3600002F022 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A0A8E11862F1910002F022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0A8EA1862F1910002F022 /* CoreGraphics.framework in Frameworks */,
+				40A0A8EC1862F1910002F022 /* UIKit.framework in Frameworks */,
+				40A0A8E81862F1910002F022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A0A8FC1862F1910002F022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0A9011862F1910002F022 /* XCTest.framework in Frameworks */,
+				40A0A9031862F1910002F022 /* UIKit.framework in Frameworks */,
+				40A0A9021862F1910002F022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A0A8DB1862F1910002F022 = {
+			isa = PBXGroup;
+			children = (
+				40A0A8ED1862F1910002F022 /* MLKPageViewController */,
+				40A0A9061862F1910002F022 /* MLKPageViewControllerTests */,
+				40A0A8E61862F1910002F022 /* Frameworks */,
+				40A0A8E51862F1910002F022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A0A8E51862F1910002F022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A8E41862F1910002F022 /* MLKPageViewController.app */,
+				40A0A8FF1862F1910002F022 /* MLKPageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A0A8E61862F1910002F022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A8E71862F1910002F022 /* Foundation.framework */,
+				40A0A8E91862F1910002F022 /* CoreGraphics.framework */,
+				40A0A8EB1862F1910002F022 /* UIKit.framework */,
+				40A0A9001862F1910002F022 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40A0A8ED1862F1910002F022 /* MLKPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A8F61862F1910002F022 /* AppDelegate.h */,
+				40A0A8F71862F1910002F022 /* AppDelegate.m */,
+				40A0A92D1862F3AE0002F022 /* MLK Page VC */,
+				40A0A92A1862F36D0002F022 /* First VC */,
+				40A0A92B1862F3790002F022 /* Second VC */,
+				40A0A92C1862F3920002F022 /* Third VC */,
+				40A0A8F91862F1910002F022 /* Images.xcassets */,
+				40A0A8EE1862F1910002F022 /* Supporting Files */,
+			);
+			path = MLKPageViewController;
+			sourceTree = "<group>";
+		};
+		40A0A8EE1862F1910002F022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A8EF1862F1910002F022 /* MLKPageViewController-Info.plist */,
+				40A0A8F01862F1910002F022 /* InfoPlist.strings */,
+				40A0A8F31862F1910002F022 /* main.m */,
+				40A0A8F51862F1910002F022 /* MLKPageViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A0A9061862F1910002F022 /* MLKPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A90C1862F1910002F022 /* MLKPageViewControllerTests.m */,
+				40A0A9071862F1910002F022 /* Supporting Files */,
+			);
+			path = MLKPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		40A0A9071862F1910002F022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A9081862F1910002F022 /* MLKPageViewControllerTests-Info.plist */,
+				40A0A9091862F1910002F022 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A0A92A1862F36D0002F022 /* First VC */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A91C1862F3550002F022 /* FirstViewController.h */,
+				40A0A91D1862F3550002F022 /* FirstViewController.m */,
+				40A0A91B1862F3550002F022 /* FirstView.xib */,
+			);
+			name = "First VC";
+			sourceTree = "<group>";
+		};
+		40A0A92B1862F3790002F022 /* Second VC */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A9211862F3600002F022 /* SecondViewController.h */,
+				40A0A9221862F3600002F022 /* SecondViewController.m */,
+				40A0A9201862F3600002F022 /* SecondView.xib */,
+			);
+			name = "Second VC";
+			sourceTree = "<group>";
+		};
+		40A0A92C1862F3920002F022 /* Third VC */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A9241862F3600002F022 /* ThirdViewController.h */,
+				40A0A9251862F3600002F022 /* ThirdViewController.m */,
+				40A0A9231862F3600002F022 /* ThirdView.xib */,
+			);
+			name = "Third VC";
+			sourceTree = "<group>";
+		};
+		40A0A92D1862F3AE0002F022 /* MLK Page VC */ = {
+			isa = PBXGroup;
+			children = (
+				40A0A9161862F1D70002F022 /* MLKPageViewController.h */,
+				40A0A9171862F1D70002F022 /* MLKPageViewController.m */,
+				40A0A9191862F2580002F022 /* MLKPageView.xib */,
+			);
+			name = "MLK Page VC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A0A8E31862F1910002F022 /* MLKPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A0A9101862F1910002F022 /* Build configuration list for PBXNativeTarget "MLKPageViewController" */;
+			buildPhases = (
+				40A0A8E01862F1910002F022 /* Sources */,
+				40A0A8E11862F1910002F022 /* Frameworks */,
+				40A0A8E21862F1910002F022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLKPageViewController;
+			productName = MLKPageViewController;
+			productReference = 40A0A8E41862F1910002F022 /* MLKPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A0A8FE1862F1910002F022 /* MLKPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A0A9131862F1910002F022 /* Build configuration list for PBXNativeTarget "MLKPageViewControllerTests" */;
+			buildPhases = (
+				40A0A8FB1862F1910002F022 /* Sources */,
+				40A0A8FC1862F1910002F022 /* Frameworks */,
+				40A0A8FD1862F1910002F022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A0A9051862F1910002F022 /* PBXTargetDependency */,
+			);
+			name = MLKPageViewControllerTests;
+			productName = MLKPageViewControllerTests;
+			productReference = 40A0A8FF1862F1910002F022 /* MLKPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A0A8DC1862F1910002F022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NagaMalleswar;
+				TargetAttributes = {
+					40A0A8FE1862F1910002F022 = {
+						TestTargetID = 40A0A8E31862F1910002F022;
+					};
+				};
+			};
+			buildConfigurationList = 40A0A8DF1862F1910002F022 /* Build configuration list for PBXProject "MLKPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40A0A8DB1862F1910002F022;
+			productRefGroup = 40A0A8E51862F1910002F022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A0A8E31862F1910002F022 /* MLKPageViewController */,
+				40A0A8FE1862F1910002F022 /* MLKPageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A0A8E21862F1910002F022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0A9281862F3600002F022 /* ThirdView.xib in Resources */,
+				40A0A91A1862F2580002F022 /* MLKPageView.xib in Resources */,
+				40A0A9261862F3600002F022 /* SecondView.xib in Resources */,
+				40A0A91E1862F3550002F022 /* FirstView.xib in Resources */,
+				40A0A8F21862F1910002F022 /* InfoPlist.strings in Resources */,
+				40A0A8FA1862F1910002F022 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A0A8FD1862F1910002F022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0A90B1862F1910002F022 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A0A8E01862F1910002F022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0A9271862F3600002F022 /* SecondViewController.m in Sources */,
+				40A0A8F81862F1910002F022 /* AppDelegate.m in Sources */,
+				40A0A9291862F3600002F022 /* ThirdViewController.m in Sources */,
+				40A0A8F41862F1910002F022 /* main.m in Sources */,
+				40A0A9181862F1D70002F022 /* MLKPageViewController.m in Sources */,
+				40A0A91F1862F3550002F022 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A0A8FB1862F1910002F022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0A90D1862F1910002F022 /* MLKPageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A0A9051862F1910002F022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A0A8E31862F1910002F022 /* MLKPageViewController */;
+			targetProxy = 40A0A9041862F1910002F022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A0A8F01862F1910002F022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A0A8F11862F1910002F022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40A0A9091862F1910002F022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A0A90A1862F1910002F022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A0A90E1862F1910002F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40A0A90F1862F1910002F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A0A9111862F1910002F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLKPageViewController/MLKPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "MLKPageViewController/MLKPageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40A0A9121862F1910002F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLKPageViewController/MLKPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "MLKPageViewController/MLKPageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		40A0A9141862F1910002F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLKPageViewController.app/MLKPageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLKPageViewController/MLKPageViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MLKPageViewControllerTests/MLKPageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40A0A9151862F1910002F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLKPageViewController.app/MLKPageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLKPageViewController/MLKPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "MLKPageViewControllerTests/MLKPageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A0A8DF1862F1910002F022 /* Build configuration list for PBXProject "MLKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A0A90E1862F1910002F022 /* Debug */,
+				40A0A90F1862F1910002F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A0A9101862F1910002F022 /* Build configuration list for PBXNativeTarget "MLKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A0A9111862F1910002F022 /* Debug */,
+				40A0A9121862F1910002F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40A0A9131862F1910002F022 /* Build configuration list for PBXNativeTarget "MLKPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A0A9141862F1910002F022 /* Debug */,
+				40A0A9151862F1910002F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A0A8DC1862F1910002F022 /* Project object */;
+}
